@@ -1,0 +1,246 @@
+#name {
+    font-family: Quicksand;
+}
+
+#quote {
+    font-family: Borel;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+    height: 80px;
+    width: fit-content;
+    display: inline-block;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: rgb(15, 17, 19);
+    padding: 5px;
+}
+
+#passion2 {
+    margin-left: 150px;
+}
+
+#passion3 {
+    margin-left: 300px;
+}
+
+.passion {
+    font-family: Quicksand;
+    color: #FFF;
+}
+
+#rock {
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+#underWord {
+    font-family: Quicksand;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: 45%;
+    border-style: dotted;
+    border-width: 5px;
+    width: fit-content;
+    background-color: rgb(103, 152, 172);
+    padding: 5px;
+    
+}
+
+.Top {
+    background-color: rgb(44, 8, 51);
+    border-style: dotted;
+    border-width: 5px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    position: relative;
+    width: 80vw;
+    left: 95px;
+    top: 55px;
+    
+}
+
+#background {
+    background-color: rgb(97, 13, 97);
+    animation-name: blocks;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    border-style: double;
+    border-color: black;
+    border-width: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+@keyframes blocks {
+  from {background-color: rgb(97, 13, 97);}
+  to {background-color: rgb(64, 53, 64);}
+  from {border-color: gold;}
+  to {border-color: black;}
+}
+
+#block {
+  border: 1px black solid;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: liner;
+}
+
+@keyframes liner {
+  0% {background-color: black; left: 0px; bottom: 0px;}
+  25% {background-color: yellow; left: 0px; bottom: 810px;}
+  50% {background-color: black; left: 1453px; bottom: 810px;}
+  75% {background-color: yellow; left: 1453px; bottom: 0px;}
+  100% {background-color: black; left: 0px; bottom: 0px;}
+
+}
+
+#aboutground {
+    background-image: url(https://wallpapercave.com/wp/2I03ZvH.jpg);
+    background-size: cover;
+}
+
+#portground {
+    background-image: url(https://wallpapercave.com/wp/wp2801544.jpg);
+    
+    background-size: cover;
+}
+
+.contground {
+  background-image: url(https://wallpapercave.com/wp/wp2801544.jpg);
+}
+
+.firstProject {
+    display: inline-block;
+    background-color: rgb(233, 233, 202);
+    padding: 10px 25px;
+    text-decoration: none;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gray;
+    margin: 5px;
+    font-size: 14px;
+    transition: font-size 4s , 1s;
+    color: black;
+}
+
+.firstProject:hover {
+    border-style: inset;
+    font-size: 16px;  
+}
+
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 5px solid;
+  width: 400px;
+  height: fit-content;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  top: 100px;
+  left: 550px;
+  background-color: rgb(208, 182, 35);
+}
+
+.aboutphtR {
+  position: absolute;
+  border: 5px solid;
+  border-style: solid;
+  width: 500px;
+  height: 300px;
+  bottom: 250px;
+  left: 1050px;
+  background-color: #FFF;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutphtL {
+  position: absolute;
+  border: 5px solid;
+  border-style: solid;
+  width: 400px;
+  height: 600px;
+  bottom: -50px;
+  right: 1150px;
+  background-color: #FFF;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  position: absolute;
+  border: 5px solid;
+  border-style: solid;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  bottom: 330px;
+  left: 1235px;
+  background-color: #b81b1b;
+  padding: 5px;
+}
+
+body {
+  position: static;
+}
+
+#aboutnav {
+  position: relative;
+  bottom: 100px;
+}
+
+.Bottom {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+#project1 {
+  transition: width 4s, height 4s;
+}
+
+#project1:hover {
+  width: 700px;
+  height: 400px;
+}
+
+#button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 55px;
+  left: 725px;
+  top: 100px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font: 30px;
+    color: #FFF;
+}
+
+.form:nth-child(3) {
+  background-color: rgb(54, 8, 54);
+}
